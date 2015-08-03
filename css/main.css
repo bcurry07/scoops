@@ -1,0 +1,240 @@
+/* Web Fonts ---------*/
+@font-face {
+    font-family: 
+}
+
+* {
+    box-sizing: border-box;
+}
+.main-header {
+    background: #555555 url('../img/1920x524_headerphoto.jpg') no-repeat center; 
+    background-size: cover;
+    padding-top: 170px;
+    padding-bottom:200px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#subtitle {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.article-info {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    letter-spacing: 2.25px;
+    line-height: 1.25;
+    background-color: #fafafa;
+    padding-bottom: 10px;
+}
+
+#dustin-photo {
+    -webkit-border-radius: 50%; /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -moz-border-radius:50%; /* Firefox 1-3.6 */
+    border-radius:50%; /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    margin-top: -30px;
+}
+
+#article-editor {
+    color: black;
+    font-size: 40px;
+    margin-top: 12px;
+}
+
+#article-subject {
+    color: #f63c3c;
+    font-size: 18px;
+}
+
+#article-date {
+    color: #555555;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.article-content {
+    font-family: 'Titillium Web', sans-serif;
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    min-width: 500px;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+
+.article-content p {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+a {
+    color: #555555;
+}
+
+a:hover {
+    color: #f63c3c;
+}
+
+.article-comments {
+    max-width: 600px;
+    min-width: 500px;
+    margin: auto;
+    margin-bottom: 115px;
+}
+
+#comments-headline {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: #151515;
+    letter-spacing: 2.25px;
+    width: 600px;
+    min-width: 500px;
+    margin-bottom: 20px;
+}
+
+form #your-name {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    color: #555555;
+    border: 2px solid #dedede;
+    padding: 15px;
+    width: 600px;
+    min-width: 500px;
+    margin-bottom: 12px;
+
+}
+form #message {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    color: #555555;
+    border: 2px solid #dedede;
+    padding: 15px;
+    width: 600px;
+    min-width: 500px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+/* ------ Placeholder text color ------------- */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #555555;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #555555;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #555555;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #555555;
+}
+
+form #submit {
+    background-color: #f63c3c;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+    padding: 15px 20px 10px;
+    border: none;
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+    line-height: 1.5
+}
+#share-post {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color: #010101;
+    letter-spacing: 2.25px;
+}
+
+#share-instructions {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #555555;
+}
+
+.social-media li {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    color:#352d2f;
+    letter-spacing: 2.25px;
+    list-style-type: none;
+    border: 2px solid #d3d1d1;
+    display: inline-block;
+    width: 270px;
+    height: 50px;
+    margin: 30px 15px;
+    text-align: center;
+}
+
+.social-media img {
+    padding-top: 5px;
+}
+
+.previous-article {
+    background: #555555 url('../img/960x310_previousphoto.jpg') no-repeat center;
+    padding: 50px 220px 50px 110px;
+    width: 50%;
+    float: left;
+}
+
+.next-article {
+    background: #555555 url('../img/960x310_nextphoto.jpg') no-repeat center;
+    padding: 50px 160px 50px 110px;
+    width: 50%;
+    float: right;
+}
+
+.previous,.next {
+font-family: 'Teko', sans-serif;
+font-size: 30px;
+color: #ffffff;
+letter-spacing: 2.25px;
+opacity: .5;
+margin-bottom: 10px;
+}
+
+.previous-title, .next-title {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    line-height: 1.25;
+}
+
+footer {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #555555;
+    clear: both;
+}
+
+
+
+
+
+    
